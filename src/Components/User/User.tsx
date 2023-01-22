@@ -3,14 +3,11 @@ import "./User.css";
 import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
 import Discussion from "../../Discussion";
 import My from '../My/My';
-import zIndex from '@mui/material/styles/zIndex';
 
 
 function User() {
     const [users] = useState(Discussion)
     const [boolean, setBoolean] = useState<boolean>()
-
-    // {user.user.avatar ? user.user.avatar : user.user.name }
 
     return (
         <div>
@@ -83,3 +80,5 @@ function User() {
 }
 
 export default User
+
+{/* <span className='name'>{(reply.text).split(/@\w{3,20}/)}</span> */}
