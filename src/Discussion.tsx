@@ -84,4 +84,4 @@ const Discussion: IDiscussion[] = [
 ];
 
 
-export default Discussion ;
+export default Discussion;

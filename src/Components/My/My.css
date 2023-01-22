@@ -2,11 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .my-avatar {
-  width: 50px;
+  width: 60px;
   height: 50px;
   border-radius: 50%;
   margin-right: 20px;

@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Content.css"
 import User from "../User/User"
 

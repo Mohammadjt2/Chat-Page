@@ -1,4 +1,3 @@
-import React from 'react'
 import "./My.css";
 
 function My() {
