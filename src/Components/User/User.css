@@ -1,7 +1,12 @@
 .user{
     display: flex;
     padding: 20px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.user-reply{
+    display: flex;
+    padding: 20px;
 }
 
 .user-avatar {
@@ -54,4 +59,13 @@
     color: #3498DB;
     font-weight: bold;
     margin-left: 20px;
+}
+
+.reply{
+    margin-left: 3rem;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);;
+}
+
+.my-padding{
+    padding: 20px 20px 20px 70px;
 }
