@@ -80,5 +80,3 @@ function User() {
 }
 
 export default User
-
-{/* <span className='name'>{(reply.text).split(/@\w{3,20}/)}</span> */}
