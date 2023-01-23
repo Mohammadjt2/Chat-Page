@@ -77,3 +77,10 @@
 .my-padding {
   padding: 20px 20px 20px 70px;
 }
+
+.woed{
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #3498db59;
+  color: #0f6dac;
+}

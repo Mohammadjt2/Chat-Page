@@ -11,7 +11,7 @@ function User() {
 
     return (
         <div>
-            {users.map((user) => (
+            {users.map((user): JSX.Element => (
                 <div key={user.id}>
                     <div className='user'>
                         {(user.user.avatar) ? <img className='user-avatar' src={user.user.avatar} alt="" /> : <span className='user-avatar'>{(user.user.name).split(/[a-z \s]/)}</span>}
@@ -42,7 +42,7 @@ function User() {
                         </div>
                     </div>
                     <div className='reply'>
-                        {user.replies.map((reply) => (
+                        {user.replies.map((reply): JSX.Element => (
                             <div className='user-reply' key={reply.id}>
                                 {(reply.user.avatar) ? <img className='user-avatar' src={reply.user.avatar} alt="" /> : <span className='user-avatar'>{(reply.user.name).split(/[a-z \s]/)}</span>}
                                 <div>
